@@ -31,20 +31,20 @@ int main()
 
 
     printf( "1st Number = %d\n", a ) ;
-    printf( "2st Number = %d\n", b ) ;
-    printf( "3st Number = %d\n", c ) ;
+    printf( "2nt Number = %d\n", b ) ;
+    printf( "3rd Number = %d\n", c ) ;
 
     if (a > b && a > c ) 
     {
         printf( "The 1rd Number is the greatest among three" ) ;
     }
     
-    if (b > a && b > c ) 
+    else if (b > a && b > c ) 
     {
         printf( "The 2rd Number is the greatest among three" ) ;
     }
     
-    if (c > a && c > b )
+    else if (c > a && c > b )
     {
         printf( "The 3rd Number is the greatest among three" ) ;
     }
