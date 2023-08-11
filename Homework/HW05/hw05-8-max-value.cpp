@@ -41,12 +41,12 @@ int main()
     
     if (b > a && b > c ) 
     {
-        printf( "The 2nd Number is the greatest among three" ) ;
+        printf( "The 2rd Number is the greatest among three" ) ;
     }
     
     if (c > a && c > b )
     {
-        printf( "The 3st Number is the greatest among three" ) ;
+        printf( "The 3rd Number is the greatest among three" ) ;
     }
     
     return 0;
