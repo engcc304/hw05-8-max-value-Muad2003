@@ -31,7 +31,7 @@ int main()
 
 
     printf( "1st Number = %d\n", a ) ;
-    printf( "2nt Number = %d\n", b ) ;
+    printf( "2nd Number = %d\n", b ) ;
     printf( "3rd Number = %d\n", c ) ;
 
     if (a > b && a > c ) 
